@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+</head>
+<body onload = start()>
+    <input type="checkbox" name="" id="menu_control" >
+    <div class="header">
+        <h1>Wei-Long Chen</h1>
+        <label for="menu_control" class="menu_btn">
+            <span>123</span>
+        </label>
+        <nav>
+            <span onclick="changePage('Summary')" class=pageSelect id="Summary" >Summary</span> <span class=sepBar>|</span>
+            <span onclick="changePage('Why')" class=pageSelect id="Why" >Why</span> <span class=sepBar>|</span>
+            <span onclick="changePage('How')" class=pageSelect id="How" >How</span> <span class=sepBar>|</span>
+            <span onclick="changePage('Schedule')" class=pageSelect id="Schedule" >Schedule</span> <span class=sepBar>|</span>
+            <span onclick="changePage('Challenge')" class=pageSelect id="Challenge" >Challenge</span> <span class=sepBar>|</span>
+            <span onclick="changePage('Want-to')" class=pageSelect id="Want-to" >Want-to</span> <span class=sepBar>|</span>
+            <span onclick="changePage('Say')" class=pageSelect id="Say" >Say</span>
+        </nav>
+    </div>
+    
+    <div class="page Summary">個人簡介
+        <p class=underline></p>
+        您好，我是陳韋龍，畢業於台灣大學機械工程學研究所，目前為就職中，工作內容為半導體工程師，
+        研究所期間，修習過數值分析，機器學習相關課程，主要使用的語言為python，目前主要用業餘時間自學軟體相關技術:
+        網頁相關:html、css、js、reactjs、nodejs
+        資料庫:mongoDB
+        程式語言:C/C++、python(flask、爬蟲)
+        容器化:Docker、Docker-compose
+        作業系統:windows、linux
+        編輯器:VS code、Colab
+
+
+    </div>
+    <div class="page Why">為什麼想成為前端、後端、或全端工程師？
+        <p class=underline></p>
+        我想成為全端工程，前端能夠將想法具象、提供使用者體驗，後端可以享受資料處理、邏輯推算，要形成一個APP，這兩項缺一不可，並且需要將其整合，此時只專注於單一能力，
+        就會造成通盤上的視野不足，我想藉前後端能力，打造出一個完整的APP，這會讓我很有成就感，
+    </div>
+    <div class="page How">為了成為軟體工程師，曾經做過什麼努力？
+        <p class=underline></p>
+        <div>學習歷程</div>
+        大學學習過基礎C/C++，但當時沒有燃起興趣，直到研究所的數值分析，開始自學python，透過分析模型、推導公式，再轉換成數值方法，最後模擬出物理模型，從中獲得得成就感，
+        使我對寫程式產生濃厚的興趣，之後接觸校內機器學習相關課程，學習到透過python(pytorch、keras)實作模型，應用於CV、NLP等。
+        <div>自我省思</div>
+        經過一段時間，自我檢視後，發現自己再基礎觀念及能力上不足，開始把自己淨空，從基礎的觀念下手(CS50)，像是操作指標、動態安排記憶體、演算法、資料結構等。
+        <div>自我提升</div>
+        就業後，不想中斷對程式的熱情，利用休假的時間，進行小project並設定目標，學習爬蟲相關的技術、蒐集資料，進而學習網頁架構，開始思考搭建一套APP，接觸到前端及後端開發，
+        查閱相關的資料，發現自己對後端的興趣更多一些，由於過去主要是在進行model建立，自然會朝向數據處理方面，所以就從FLASK框架出發，練習搭建輕量化的API server，透過sqlalchemy跟
+        pymongo與資料庫連結，利用Postman測試取得的回傳資料。延續這個project，就開始思考，如何產生互動介面，接觸到三大前端框架，由於對於日後開發mobile app拓展，所以選擇學習react，
+        
+        
+    </div>
+    <div class="page Schedule">如果參與這個計畫，會怎麼安排學習時間？
+        <p class=underline></p>
+        利用早上、下班後、假日時間進行學習及實作，如同下表呈現。
+        <div>學習時間安排</div>
+        <div class="container">
+            <div class="chart">
+                <div class="chart-row chart-period">
+                    <div class="chart-row-item"></div>
+                        <span>Monday</span><span>Tuesday</span>
+                        <span>Wednesday</span><span>Thursday</span><span>Friday</span><span>Saturday</span><span>Sunday</span></div>
+                        <div class="chart-row">  
+                            <div class="chart-row-item">05:00</div> 
+                            <ul class="chart-row-bars">    
+                                <li class="chart-li-one">Learning&Coding</li>
+                            </ul>
+                            <div class="chart-row-item">06:00</div> 
+                            <ul class="chart-row-bars">    
+                                <li class="chart-li-one">Learning&Coding</li>
+                            </ul>
+                            <div class="chart-row-item">07:00</div> 
+                            <ul class="chart-row-bars">
+                                <li class="chart-li-four">Weekly meeting</li>    
+                                <li class="chart-li-five">Learning&Coding</li>
+                            </ul>
+                            <div class="chart-row-item">08:00</div> 
+                            <ul class="chart-row-bars">    
+                                <li class="chart-li-four">Weekly meeting</li>  
+                                <li class="chart-li-five">Learning&Coding</li>
+                            </ul>
+                            <div class="chart-row-item">09:00~11:00</div> 
+                            <ul class="chart-row-bars">    
+                                <li class="chart-li-one">Working</li>
+                                <li class="chart-li-three">Learning&Coding</li>
+                            </ul>
+                            <div class="chart-row-item">12:00</div> 
+                            <ul class="chart-row-bars">    
+                                <li class="chart-li-two">Time break</li>
+                            </ul>
+                            <div class="chart-row-item">13:00~18:00</div> 
+                            <ul class="chart-row-bars">    
+                                <li class="chart-li-one">Working</li>
+                                <li class="chart-li-three">Learning&Coding</li>
+                            </ul>
+                            <div class="chart-row-item">19:00</div> 
+                            <ul class="chart-row-bars">    
+                                <li class="chart-li-two">Learning&Coding</li>
+                            </ul>
+                            <div class="chart-row-item">20:00</div> 
+                            <ul class="chart-row-bars">    
+                                <li class="chart-li-two">Learning&Coding</li>
+                            </ul>
+                            <div class="chart-row-item">21:00</div> 
+                            <ul class="chart-row-bars">    
+                                <li class="chart-li-two">Learning&Coding</li>
+                            </ul>
+                            <div class="chart-row-item">22:00</div> 
+                            <ul class="chart-row-bars">    
+                                <li class="chart-li-two">Learning&Coding</li>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="page Challenge">如果參與這個計畫，預期會碰到什麼困難？你打算怎麼解決它？
+        <p class=underline></p>
+        <div>以下我將列點敘述困難及解決方法</div>
+        1.時間掌握
+        將規劃學習及作業進度，作業內容拆分，並將課題依能力歸類排序，主要分成三階段，自我能力上的難易程度，並設定每日達程目標，逐步將專案完成。
+        2.專案控管
+        學習專案管理，像註解、變數命名上設定規範，以及專案資源的路徑規劃，像是靜態檔案及組件程式等，提高程式可讀性，增加效率及除錯能力，以及未來轉職與企業接軌。
+        3.學習熱忱
+        在有壓力的情況下，能夠提升前進速率，但也容易疲勞，造成失去熱忱，我個人對程式的熱忱，主要源於當應用成功運行，以及自身能力提升，產生的成就感，
+        為了產生正回饋，需要將問題拆分，來一一破解，產生持之以恆的鍊。
+        4.
+        
+    </div>
+    <div class="page Want-to">是否有想要加入的軟體公司？為什麼想加入該公司？
+        <p class=underline></p>
+        
+        目的是全面性的接觸，軟體的世界，進步非常快速，發展中的公司，能夠快速看到完整的生命週期，產品開發的流程，有助於未來自行開發，但相對資源上可能會有不足。
+        規模大的公司，基礎體系發展健全，會開發創新技術，來提升效率，職務規劃明確，可能會缺乏能夠通盤接觸的機會。
+    </div>
+    <div class="page Say">想要對我們說的事情？
+        <p class=underline></p>
+        1.調整星期一早上進度會議的時間
+        2.
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script  type="text/javascript" src="D:\sideproj\訓練營申請\index.js"></script>
+</body>
+
+
+</html>
