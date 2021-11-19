@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESUME</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body onload="start()">
+    <input type="checkbox" name="" id="menu_control" />
+    <div class="header">
+      <h1>Wei-Long Chen</h1>
+      <label for="menu_control" class="menu_btn">
+        <span>123</span>
+      </label>
+      <nav>
+        <span onclick="changePage('Summary')" class="pageSelect" id="Summary"
+          >Summary</span
+        >
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Why')" class="pageSelect" id="Why">Why</span>
+        <span class="sepBar">|</span>
+        <span onclick="changePage('How')" class="pageSelect" id="How">How</span>
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Schedule')" class="pageSelect" id="Schedule"
+          >Schedule</span
+        >
+        <span class="sepBar">|</span>
+        <span
+          onclick="changePage('Challenge')"
+          class="pageSelect"
+          id="Challenge"
+          >Challenge</span
+        >
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Want-to')" class="pageSelect" id="Want-to"
+          >Want-to</span
+        >
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Say')" class="pageSelect" id="Say">Say</span>
+      </nav>
+    </div>
+
+    <div class="page Summary">
+      個人簡介
+      <p class="underline"></p>
+      <!-- <p class="name">陳韋龍  Wei-Long Chen</p>
+      <p>學歷:台灣大學機械工程學研究所</p> -->
+
+      <p></p>
+      <div class = "summay-container">
+
+       <div class='summay-row-one'><p class="summary-title">Summary</p>
+        <p class="summay-underline"></p>
+        <p>
+        </p>
+       </div>
+       <div class='summay-row-two'><p class="summary-title">Education</p>
+        <p class="education">
+            <p>National Taiwan University</p>
+            <p class="education-two" >Master of Mechanical Engineering</p>
+        </p>
+       </div>
+       <div class='summay-row-three'><p class="summary-title">Job Experience</p>
+        <p>
+            Process Integration Engineer 
+        </p>
+
+       </div>
+
+       <div class='summay-row-four'><p class="summary-title">My Skill</p>
+        <div class="summary-skill-web">Web develop
+        
+          
+        
+        <div class="summary-skill-web-front">frontend
+            <p class="item1">html</p>
+            <span class="learning-stage-item1"></span>
+            <span class="outline1"></span>
+            <p class="item2">css</p>
+            <span class="learning-stage-item2"></span>
+            <span class="outline2"></span>
+            <p class="item3">js</p>
+            <span class="learning-stage-item3"></span>
+            <span class="outline3"></span>
+            <p class="item4">reactjs</p>
+            <span class="learning-stage-item4"></span>
+            <span class="outline4"></span>
+            <p class="item5">nodejs</p>
+            <span class="learning-stage-item5"></span>
+            <span class="outline5"></span>
+        </div>
+        <div class="summary-skill-web-back">backend
+            <p class="item1">python</p>
+            <span class="learning-stage-item6"></span>
+            <span class="outline6"></span>
+            <p class="item2">mongoDB</p>
+            <span class="learning-stage-item7"></span>
+            <span class="outline7"></span>
+            <p class="item3">Docker</p>
+            <span class="learning-stage-item8"></span>
+            <span class="outline8"></span>
+            <p class="item4">linux</p>
+            <span class="learning-stage-item9"></span>
+            <span class="outline9"></span>
+           
+        </div>
+    </div>
+       </div>
+    </div>
+      <!-- <div>
+        目前主要學習的軟體相關技術:
+        <p>網頁相關:html、css、js、reactjs、nodejs</p>
+        <p>資料庫:mongoDB</p>
+        <p>程式語言:C/C++、python(flask、web crawler)</p>
+        <p>容器化:Docker、Docker-compose</p>
+        <p>作業系統:windows、linux</p> -->
+      <!-- </div> -->
+    </div>
+    <div class="page Why">
+      為什麼想成為前端、後端、或全端工程師？
+      <p class="underline"></p>
+      我想成為全端工程師，前端能夠將想法具象、提供使用者體驗，後端可以享受資料處理、邏輯推算，要形成一個APP，這兩項缺一不可，並且需要將其整合，此時只專注於單一能力，
+      就會造成通盤上的視野不足。
+      前期會以後端工程師準備，主要是我對後端分析、處理數據、伺服器運行等，需要研究效能的題目較有興趣，會以此為主軸出發，前端為輔，能夠配合將數據可視化、提供介面，
+      隨著開發的穩定，開始將後端的接口上線，就會需要穩定的前端運行，此時加強前端的邏輯功能、效能等，避免造成後端壓力。
+      透過上述循序漸進，來轉向成全端工程師
+    </div>
+    <div class="page How">
+      為了成為軟體工程師，曾經做過什麼努力？
+      <p class="underline"></p>
+      <div>
+        學習歷程
+        <p>
+          大學計算機程式修習過C/C++，建立了我程式基礎，研究所期間，主要修習過數值分析，機器學習相關課程，前者透過數理分析，將連續函數離散化，並整理出演算法，
+          再將其轉換成程式測試，並評估Truncation、Round-off及穩定性，後者則是學習機器學習背景觀念，從基本的回歸、分類等，進一步介紹深度學習的模型，
+          主要使用的語言為python，套件為pytorch、keras，應用於CV、NLP等。
+        </p>
+      </div>
+      <div>
+        自我省思
+        <p>
+          經過一段時間，自我檢視後，發現自己再基礎觀念及能力上不足，開始把自己淨空，從基礎的觀念下手(CS50)，並重新透過C語言，學習資料結構及演算法。
+        </p>
+      </div>
+      <div>
+        自我提升
+        <p>
+          就業後，不想中斷對程式的熱情，利用休假的時間，進行小project並設定目標，學習爬蟲相關的技術、蒐集資料，進而學習網頁架構，開始思考搭建一套APP，接觸到前端及後端開發，
+          查閱相關的資料，發現自己對後端的興趣更多一些，由於過去主要是在進行model建立，自然會朝向數據處理方面，所以就從FLASK框架出發，練習搭建輕量化的API
+          server，透過sqlalchemy跟
+          pymongo與資料庫連結，利用Postman測試取得的回傳資料。延續這個project，就開始思考，如何產生互動介面，接觸到三大前端框架，由於對於日後開發mobile
+          app拓展，所以選擇學習react，
+        </p>
+      </div>
+    </div>
+    <div class="page Schedule">
+      如果參與這個計畫，會怎麼安排學習時間？
+      <p class="underline"></p>
+      <div>
+        <p>周一至周五:</p>
+        <p>上班日主要會透過早上及下班後進行學習及完成作業，早上起來先將本日需要完成的作業，依照技術需求分類，並規劃程式主軸，將問題定義清楚，
+        簡單構思會用到的變數，並參照定義好的命名方式，最後定義測試方式，以節省時間提高效率，預計利用30~60分鐘完成。
+        規劃完成後，開始撰寫程式，按照規劃的進行，將功能一一拆解，利用物件封裝模組化，以力主程序調用，這部分預計會利用60~100分鐘。
+        下班後，開始撰寫主程序，透過早上規劃的路徑，將各項子功能整合，分段進行程式測試，避免整體完成後，過於複雜無法除錯，預計會用100~180分鐘。
+        撰寫過程中，會將遇到問題、所學技術、解決辦法進行彙整，並於每日報告撰寫。</p>
+        <p>周末:</p>
+      </div>
+      <div class="schedule-arrange">
+        學習時間安排
+        <div class="container">
+          <div class="chart">
+            <div class="chart-row chart-period">
+              <div class="chart-row-item"></div>
+              <span>Monday</span><span>Tuesday</span> <span>Wednesday</span
+              ><span>Thursday</span><span>Friday</span><span>Saturday</span
+              ><span>Sunday</span>
+            </div>
+            <div class="chart-row">
+              <div class="chart-row-item">05:00</div>
+              <ul class="chart-row-bars">
+                <li class="chart-li-one_1">Daily schedule arrangement</li>
+              </ul>
+              <div class="chart-row-item">06:00</div>
+              <ul class="chart-row-bars">
+                <li class="chart-li-one">Learning&Coding</li>
+              </ul>
+              <div class="chart-row-item">07:00</div>
+              <ul class="chart-row-bars">
+                <!-- <li class="chart-li-four">Weekly meeting</li> -->
+                <li class="chart-li-one">Learning&Coding</li>
+              </ul>
+              <div class="chart-row-item">08:00</div>
+              <ul class="chart-row-bars">
+                <!-- <li class="chart-li-four">Weekly meeting</li> -->
+                <li class="chart-li-one">Learning&Coding</li>
+                <li class="chart-li-three_1">Daily schedule arrangement</li>
+              </ul>
+              <div class="chart-row-item">09:00~11:00</div>
+              <ul class="chart-row-bars">
+                <li class="chart-li-one_2">Working</li>
+                <li class="chart-li-three">Learning&Coding</li>
+              </ul>
+              <div class="chart-row-item">12:00</div>
+              <ul class="chart-row-bars">
+                <li class="chart-li-two_1">Time break</li>
+              </ul>
+              <div class="chart-row-item">13:00~18:00</div>
+              <ul class="chart-row-bars">
+                <li class="chart-li-one_2">Working</li>
+                <li class="chart-li-three">Learning&Coding</li>
+              </ul>
+              <div class="chart-row-item">19:00</div>
+              <ul class="chart-row-bars">
+                <li class="chart-li-two">Learning&Coding</li>
+              </ul>
+              <div class="chart-row-item">20:00</div>
+              <ul class="chart-row-bars">
+                <li class="chart-li-one_1">Daily report writing</li>
+                <li class="chart-li-three_1">Daily report writing</li>
+              </ul>
+              <div class="chart-row-item">21:00</div>
+              <ul class="chart-row-bars">
+                <li class="chart-li-two">Learning&Coding</li>
+              </ul>
+              <div class="chart-row-item">22:00</div>
+              <ul class="chart-row-bars">
+                <li class="chart-li-two">Learning&Coding</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page Challenge">
+      如果參與這個計畫，預期會碰到什麼困難？你打算怎麼解決它？
+      <p class="underline"></p>
+      <div>
+        以下我將列點敘述困難及解決方法
+        <div>
+          1.時間掌握
+          <p>
+            將規劃學習及作業進度，作業內容拆分，並將課題依能力歸類排序，主要分成三階段，自我能力上的難易程度，並設定每日達程目標，逐步將專案完成。
+          </p>
+        </div>
+        <div>
+          2.專案控管
+          <p>
+            學習專案管理，像註解、變數命名上設定規範，以及專案資源的路徑規劃，像是靜態檔案及組件程式等，提高程式可讀性，增加效率及除錯能力，以及未來轉職與企業接軌。
+          </p>
+        </div>
+        <div>
+          3.學習熱忱
+          <p>
+            在有壓力的情況下，能夠提升前進速率，但也容易疲勞，造成失去熱忱，我個人對程式的熱忱，主要源於當應用成功運行，以及自身能力提升，產生的成就感，
+            為了產生正回饋，需要將問題拆分，來一一破解，產生持之以恆的鍊。
+          </p>
+          <div>
+            4.工作疲乏
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page Want-to">
+      是否有想要加入的軟體公司？為什麼想加入該公司？
+      <p class="underline"></p>
+      目前尚未有指定的公司，目的是全面性的接觸，軟體的世界，進步非常快速，發展中的公司，能夠快速看到完整的生命週期，產品開發的流程，有助於未來自行開發，但相對資源上可能會有不足。
+      規模大的公司，基礎體系發展健全，會開發創新技術，來提升效率，職務規劃明確，可能會缺乏能夠通盤接觸的機會。
+    </div>
+    <div class="page Say">
+      想要對我們說的事情？
+      <p class="underline"></p>
+      <div>
+        參加動機:
+        <p>
+          在看分享影片時，也有許多共鳴，像是自學雖然學會時很有成就感，但是容易花費大量時間，沒有辦法單刀直入，把問題定義清楚，
+          再來不了解業界運作的方式，專案的安排、整體呈現、變數運用等，造成後續除錯沒有效率，程式可讀性降低，沒有架構，
+          在專業技能，會陷入不必要的迴圈中，過於糾結無法跳脫出來，需要透過提醒，來導正方向。
+        </p>
+        <p>
+          因此想要透過訓練營，有架構的學習，循序漸進了解業界運作模式，並且能夠有方向指引及詢問，改變邏輯思維的能力，學習成為一名軟體工程師，日後能夠轉職，投身此行業。
+        </p>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
