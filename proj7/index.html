@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESUME</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body onload="start()">
+    <input type="checkbox" name="" id="menu_control" />
+    <div class="header">
+      <h1>Wei-Long Chen</h1>
+      <label for="menu_control" class="menu_btn">
+        <span>123</span>
+      </label>
+      <nav>
+        <span onclick="changePage('Summary')" class="pageSelect" id="Summary"
+          >Summary</span
+        >
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Why')" class="pageSelect" id="Why">Why</span>
+        <span class="sepBar">|</span>
+        <span onclick="changePage('How')" class="pageSelect" id="How">How</span>
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Schedule')" class="pageSelect" id="Schedule"
+          >Schedule</span
+        >
+        <span class="sepBar">|</span>
+        <span
+          onclick="changePage('Challenge')"
+          class="pageSelect"
+          id="Challenge"
+          >Challenge</span
+        >
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Want-to')" class="pageSelect" id="Want-to"
+          >Want-to</span
+        >
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Say')" class="pageSelect" id="Say">Say</span>
+      </nav>
+    </div>
+
+    <div class="page Summary">
+      <div class="title">個人簡介</div>
+      <p class="underline"></p>
+      <div class="container">
+        <div class="summary-text">
+          <div class="summay">
+            <div class="title">About Me</div>
+            <p class="content-underline"></p>
+            <div class="summay-content">
+              <p>
+                Hi, my name is Wei-Long Chen. I received a M.A. degree in
+                Mechanical Engineering at National Taiwan University.
+              </p>
+              <p>
+                Now I am a Process Integration Engineer in Semiconductor
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="code">
+            <div class="title">Coding EXP</div>
+            <p class="content-underline"></p>
+            <p></p>
+            <p></p>
+          </div>
+          <!-- <div class="job"><h2>Job Experience</h2>
+            <p class="content-underline"></p>
+        </div> -->
+          <div class="skill">
+            <div class="title">My Skill</div>
+            <p class="content-underline"></p>
+            <div class="skii-contenet">
+              <div class="front">Frontend</div>
+              <div class="front-content">
+                <p class="front-item1">html</p>
+                <p class="box-item Item1"></p>
+                <p class="box-outline outline1"></p>
+                <p class="front-item2">css</p>
+                <p class="box-item Item2"></p>
+                <p class="box-outline outline2"></p>
+                <p class="front-item3">js</p>
+                <p class="box-item Item3"></p>
+                <p class="box-outline outline3"></p>
+                <p class="front-item4">reactjs</p>
+                <p class="box-item Item4"></p>
+                <p class="box-outline outline4"></p>
+                <p class="front-item5">nodejs</p>
+                <p class="box-item Item5"></p>
+                <p class="box-outline outline5"></p>
+              </div>
+              <div class="back">Backend</div>
+              <div class="back-content">
+                <p class="back-item1">python</p>
+                <p class="box-item Item6"></p>
+                <p class="box-outline outline6"></p>
+                <p class="back-item2">mongoDB</p>
+                <p class="box-item Item7"></p>
+                <p class="box-outline outline7"></p>
+                <p class="back-item3">Docker</p>
+                <p class="box-item Item8"></p>
+                <p class="box-outline outline8"></p>
+                <p class="back-item4">linux</p>
+                <p class="box-item Item9"></p>
+                <p class="box-outline outline9"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page Why">
+      <div class="title">為什麼想成為前端、後端、或全端工程師？</div>
+      <p class="underline"></p>
+      <div class="container why">
+        <div class="why-text">
+          <div class="why-want-be">
+            <div class="content-want-be">
+              <div class="whytitle0">I Want to be</div>
+              <p class="why-underline underline-want-be"></p>
+              <div class="why-want-be-content1">
+                <p>我想成為全端工程師</p>
+                <p>
+                  一個產品要能夠運作，需要將前後端整合，我想要培養打造出完整服務的能力
+                </p>
+                前期會以後端工程師準備，主要是我想培養後端分析、處理數據、伺服器運行等能力，這些項目需要研究資料背景分析及效能，會以此為主軸出發，前端為輔，能夠配合將數據可視化、提供介面，
+                隨著開發的穩定，開始將後端的接口上線，就會需要穩定的前端運行，此時針對前端的邏輯功能、效能等，避免造成後端壓力。
+                透過上述循序漸進，來轉向成全端工程師
+              </div>
+            </div>
+          </div>
+          <div class="why-frontend">
+            <div class="content-frontend">
+              <div class="whytitle1">Frontend</div>
+              <p class="why-underline underline-frontend"></p>
+              <div class="why-frontend-content1">
+                前端工程師需要將轉抽象轉成具象，以html、css、js為基礎，去創造與使用者的連結
+                ，提供方便的介面及良好的體驗，需要兼顧美學設計及程式能力。
+              </div>
+            </div>
+          </div>
+          <div class="why-backend">
+            <div class="content-backend">
+              <div class="whytitle2">Backend</div>
+              <p class="why-underline underline-backend"></p>
+              <div class="why-backend-content1">
+                後端工程師作為前端與資料庫的橋樑，需要兼顧速度與效能，以及實現背後的邏輯演算，
+                透過數據分析，來處理巨量的資料，並回傳給前端，協助客戶解決問題。
+              </div>
+            </div>
+          </div>
+          <div class="why-fullstack">
+            <div class="content-fullstack">
+              <div class="whytitle3">Full Stack</div>
+              <p class="why-underline underline-full"></p>
+              <div class="why-fullstack-content1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page How">
+      <div class="title">為了成為軟體工程師，曾經做過什麼努力？</div>
+      <p class="underline"></p>
+      <div class="How-body">
+        <div class="timeline">
+          <div class="how-container left">
+            <div class="date">15 Dec</div>
+            <i class="icon fa fa-home"></i>
+            <div class="content">
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p>
+                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
+                erat sagittis non. Ut blandit semper pretium.
+              </p>
+            </div>
+          </div>
+          <div class="how-container right">
+            <div class="date">22 Oct</div>
+            <i class="icon fa fa-gift"></i>
+            <div class="content">
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p>
+                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
+                erat sagittis non. Ut blandit semper pretium.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="container why">
+        <div class="why-text"></div>
+      </div> -->
+    </div>
+
+    <div class="page Schedule">
+      <div class="title">如果參與這個計畫，會怎麼安排學習時間？</div>
+      <p class="underline"></p>
+      <div class="container Schedule">
+        <div class="Schedule-text">
+          <div class="short">
+            <h2>shorten schedule</h2>
+            <div class="short-content">
+              <div class="shigotohi">
+                  <p>1. 作業整理，規劃主軸</p>
+                  <p>2. 拆解問題，技術歸類</p>
+                  <p>3. 參照規則，測試定義</p>
+                  <p>4. 模組封裝，格式設定</p>
+                  <p>5. 作業整理，規劃主軸</p>
+                  </p>
+              </div>
+              <div class="shigotohi-timeline">
+                <div class="dailytimelin">
+                    <div class="shigotohi-container">
+                        <div class="wrapper">
+                          <ul class="sessions">
+                            <li>
+                              <div class="shigotohi-time">05:00 AM</div>
+                              <p>Daily schedule arrangement</p>
+                            </li>
+                            <li>
+                              <div class="shigotohi-time">06:00 AM</div>
+                              <p>Learning&Coding</p>
+                            </li>
+                            <li>
+                              <div class="shigotohi-time">07:00 AM</div>
+                              <p>Learning&Coding</p>
+                            </li>
+                            <li>
+                                <div class="shigotohi-time">08:00 AM ~ 18:00 PM</div>
+                                <p>Working</p>
+                            </li>
+                            <li>
+                                <div class="shigotohi-time">19:00 PM</div>
+                                <p>Learning&Coding</p>
+                            </li>
+                            <li>
+                                <div class="shigotohi-time">20:00 PM</div>
+                                <p>Learning&Coding</p>
+                            </li>
+                            <li>
+                                <div class="shigotohi-time">21:00 PM</div>
+                                <p>Daily report writing</p>
+                            </li>
+                            <li>
+                                <div class="shigotohi-time">22:00 PM</div>
+                                <p>Learning&Coding</p>
+                            </li>
+                            <li>
+                                <div class="shigotohi-time">23:00 PM</div>
+                                <p>sleep</p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div> 
+                </div>
+              </div>
+              <div class="yasumihi">vacation</div>
+              <div class="yasumihi-timeline">vacation</div>
+            </div>
+          </div>
+          <div claa="longten">
+            <h2>long term schedule</h2>
+            <div class="short-content">
+              <div class="shigotohi">work-day</div>
+              <div class="shigotohi-timeline">work-day</div>
+              <div class="yasumihi">vacation</div>
+              <div class="yasumihi-timeline">work-day</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page Challenge">
+      <div class="title">
+        如果參與這個計畫，預期會碰到什麼困難？你打算怎麼解決它？
+      </div>
+      <p class="underline"></p>
+      <div class="container Challenge">
+        <div class="Challenge-text">
+          <div class="time-arrange">
+            <div class="title">時間掌握</div>
+            <p class="underline-Challenge"></p>
+            <p class="content-Challenge">
+              將規劃學習及作業進度，作業內容拆分，並將課題依能力歸類排序，主要分成三階段，自我能力上的難易程度，並設定每日達程目標，逐步將專案完成。
+            </p>
+          </div>
+          <div class="prject-manage">
+            <div class="title">專案控管</div>
+            <p class="underline-Challenge"></p>
+            <p class="content-Challenge">
+              學習專案管理，像註解、變數命名上設定規範，以及專案資源的路徑規劃，像是靜態檔案及組件程式等，提高程式可讀性，增加效率及除錯能力，以及未來轉職與企業接軌。
+            </p>
+          </div>
+          <div class="passion">
+            <div class="title">學習熱忱</div>
+            <p class="underline-Challenge"></p>
+            <p class="content-Challenge">
+              在有壓力的情況下，能夠提升前進速率，但也容易疲勞，造成失去熱忱，我個人對程式的熱忱，主要源於當應用成功運行，以及自身能力提升，產生的成就感，
+              為了產生正回饋，需要將問題拆分，來一一破解，產生持之以恆的鍊。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page Want-to">
+      <div class="title">是否有想要加入的軟體公司？為什麼想加入該公司？</div>
+      <p class="underline"></p>
+      <div class="container why"></div>
+      <div class="why-text"></div>
+    </div>
+
+    <div class="page Say">
+      <div class="title">想要對我們說的事情？</div>
+      <p class="underline"></p>
+      <div class="container say">
+        <div class="say-text">
+            <div class="title">參加動機:<div>
+                <p class="why-underline underline-want-be"></p>
+            <div class="Say-content">
+                <p>
+                  在看分享影片時，也有許多共鳴，像是自學雖然學會時很有成就感，但是容易花費大量時間，沒有辦法單刀直入，把問題定義清楚，
+                  再來不了解業界運作的方式，專案的安排、整體呈現、變數運用等，造成後續除錯沒有效率，程式可讀性降低，沒有架構，
+                  在專業技能，會陷入不必要的迴圈中，過於糾結無法跳脫出來，需要透過提醒，來導正方向。
+                </p>
+                <p>
+                  因此想要透過訓練營，有架構的學習，循序漸進了解業界運作模式，並且能夠有方向指引及詢問，改變邏輯思維的能力，學習成為一名軟體工程師，日後能夠轉職，投身此行業。
+                </p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
