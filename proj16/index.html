@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESUME</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body onload="start()">
+    <input type="checkbox" name="" id="menu_control" />
+    <div class="header">
+      <h1>Wei-Long Chen</h1>
+      <label for="menu_control" class="menu_btn">
+        <span>123</span>
+      </label>
+      <nav>
+        <span onclick="changePage('Summary')" class="pageSelect" id="Summary"
+          >Summary</span
+        >
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Why')" class="pageSelect" id="Why">Why</span>
+        <span class="sepBar">|</span>
+        <span onclick="changePage('How')" class="pageSelect" id="How">How</span>
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Schedule')" class="pageSelect" id="Schedule"
+          >Schedule</span
+        >
+        <span class="sepBar">|</span>
+        <span
+          onclick="changePage('Challenge')"
+          class="pageSelect"
+          id="Challenge"
+          >Challenge</span
+        >
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Want-to')" class="pageSelect" id="Want-to"
+          >Want-to</span
+        >
+        <span class="sepBar">|</span>
+        <span onclick="changePage('Say')" class="pageSelect" id="Say">Say</span>
+      </nav>
+    </div>
+
+    <div class="page Summary">
+      <div class="title">個人簡介</div>
+      <p class="underline"></p>
+      <div class="container">
+        <div class="summary-text">
+          <div class="summay">
+            <div class="title">About Me</div>
+            <p class="content-underline"></p>
+            <div class="summay-content">
+              <p>
+                Hi, my name is Wei-Long Chen. I graduated from National Taiwan
+                University with M.A. degree in Mechanical Engineering. I am
+                currently working as a Process Integration Engineer in
+                semiconductor industry.
+              </p>
+              <p>
+                Research and work experience in the past,spans American and
+                Taiwanese companies, and some of the fields include science and
+                engineering.
+              </p>
+              <p>
+                After learning the C language in university, I got in touch with
+                the program again due to the heat flow experiment in NTU, and I
+                started to learn the program by myself.
+              </p>
+            </div>
+          </div>
+          <div class="code">
+            <div class="title">Coding Experience</div>
+            <p class="content-underline"></p>
+            <div class="code content-text">
+              <p>
+                <i class="material-icons">arrow_right</i>Learned data structure
+                and algorithm via C/C++ programming in NTUT.
+              </p>
+              <p>
+                <i class="material-icons">arrow_right</i>To implement numerical
+                method and simulate physical phenomenon learning python.
+              </p>
+              <p>
+                <i class="material-icons">arrow_right</i> Self-learning about
+                machine learning and deep learning course using python.
+              </p>
+              <p>
+                <i class="material-icons">arrow_right</i> Create a web
+                application for deploying a Japanese practice learner with
+                frontend and backend framework.
+              </p>
+            </div>
+          </div>
+          <div class="get-start">
+            <div class="title">Motivation and future</div>
+            <p class="content-underline"></p>
+            <div class="get-start content">
+              <p>
+                My research in master degree is about the field of heat transfer
+                and fluid dynamics which cost high value in experiment. I try
+                lots of simulation for provide direction and reduce experimental
+                cost. The programming skill I learned is from the course of
+                numerical analysis which help me to analyze and study
+                complicated with difficult mathematical models. Even large
+                amounts of data can also be grouped and classified through
+                algorithms. For work, programming is flexible, through logical
+                show up ideas and the process of work.
+              </p>
+              <p>
+                Once I saw a Youtuber saying that don’t write for the sake of
+                programming but to improve human life, use the infinite
+                possibilities of programming to help more people. This sentence
+                has always supported me to learn new knowledge, I believe
+                Bootcamp has the same opinion.
+              </p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="title">My Skill</div>
+            <p class="content-underline"></p>
+            <div class="skii-contenet">
+              <div class="front">
+                <h3>Frontend</h3>
+                <div class="front-content">
+                  <p class="front-item1">html</p>
+                  <p class="box-item Item1"></p>
+                  <p class="box-outline outline1"></p>
+                  <p class="front-item2">css</p>
+                  <p class="box-item Item2"></p>
+                  <p class="box-outline outline2"></p>
+                  <p class="front-item3">js</p>
+                  <p class="box-item Item3"></p>
+                  <p class="box-outline outline3"></p>
+                  <p class="front-item4">reactjs</p>
+                  <p class="box-item Item4"></p>
+                  <p class="box-outline outline4"></p>
+                  <p class="front-item5">nodejs</p>
+                  <p class="box-item Item5"></p>
+                  <p class="box-outline outline5"></p>
+                </div>
+              </div>
+              <div class="back">
+                <h3>Backend</h3>
+
+                <div class="back-content">
+                  <p class="back-item1">python</p>
+                  <p class="box-item Item6"></p>
+                  <p class="box-outline outline6"></p>
+                  <p class="back-item2">mongoDB</p>
+                  <p class="box-item Item7"></p>
+                  <p class="box-outline outline7"></p>
+                  <p class="back-item3">Docker</p>
+                  <p class="box-item Item8"></p>
+                  <p class="box-outline outline8"></p>
+                  <p class="back-item4">linux</p>
+                  <p class="box-item Item9"></p>
+                  <p class="box-outline outline9"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page Why">
+      <div class="title">為什麼想成為前端、後端、或全端工程師？</div>
+      <p class="underline"></p>
+      <div class="container why">
+        <div class="why-text">
+          <div class="why-want-be">
+            <div class="content-want-be">
+              <div class="whytitle0">I want to be</div>
+              <p class="why-underline underline-want-be"></p>
+              <div class="why-want-be-content1">
+                <p>
+                  I want to be a Full Stack Developer. Because of a product
+                  needs to integrate by the frontend and backend. My goal is to
+                  cultivate the ability to create a complete service, start with
+                  three stages.
+                </p>
+                <p>
+                  -Early stage: Cultivate data background back-end analysis,
+                  data processing, and server operation capabilities.
+                </p>
+                <p>-Mid-term: Provide an interface with data visualization.</p>
+                <p>
+                  -Later stage: Put the back-end interface online and stable
+                  front-end operation. Aiming at the front-end logic function,
+                  performance, etc., to avoid back-end pressure.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="why-frontend">
+            <div class="content-frontend">
+              <div class="whytitle1">Frontend</div>
+              <p class="why-underline underline-frontend"></p>
+              <div class="why-frontend-content1">
+                Turning abstraction into concreteness, based on html, css, and
+                js, to create a connection with users, provide a convenient
+                interface and a good experience, it is necessary to take into
+                account aesthetic design and programming capabilities.
+              </div>
+            </div>
+          </div>
+          <div class="why-backend">
+            <div class="content-backend">
+              <div class="whytitle2">Backend</div>
+              <p class="why-underline underline-backend"></p>
+              <div class="why-backend-content1">
+                As a front-end and database bridge, it is necessary to balance
+                speed and efficiency to realize the logic calculation behind it.
+                Through data analysis, a huge amount of data is processed and
+                sent back to the front end to help customers solve problems.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page How">
+      <div class="title">為了成為軟體工程師，曾經做過什麼努力？</div>
+      <p class="underline"></p>
+      <div class="How-body">
+        <div class="timeline">
+          <div class="how-container left">
+            <div class="date">2014/Fall</div>
+            <i class="icon"
+              ><img
+                src="https://img.icons8.com/ios/50/000000/c.png"
+                class="how-img"
+                alt="logo"
+                width="30px"
+                height="30px"
+            /></i>
+            <div class="content">
+              <div class="title">C/C++</div>
+              <div class="sub-title">
+                - Basic programming knolwage:
+                <p>Type/Array/loop/Function/Structure/Pointer</p>
+              </div>
+            </div>
+          </div>
+          <div class="how-container right">
+            <div class="date">2018/Fall</div>
+            <i class="icon"
+              ><img
+                src="https://img.icons8.com/stickers/100/000000/python.png"
+                class="how-img"
+                alt="logo"
+                width="30px"
+                height="30px"
+            /></i>
+            <div class="content">
+              <div class="title">Python</div>
+              <div class="sub-title">
+                - Learning Basic python script:
+                <p>Variable/Loop/Function/Class</p>
+              </div>
+            </div>
+          </div>
+          <div class="how-container right">
+            <div class="date">2018/Fall</div>
+            <i class="icon"></i>
+            <div class="content">
+              <div class="title">Learning Coding efficiency</div>
+              <div class="sub-title">
+                - Data Structure:
+                <p>Node/Linklist/Tree/Stack/Queue/Hash table/Dictionary</p>
+              </div>
+              <div class="sub-title">
+                - Algorithm:
+                <p>Recursion/Dynamic programming/Greedy algorithm</p>
+              </div>
+            </div>
+          </div>
+          <div class="how-container left">
+            <div class="date">2019/Spring</div>
+            <i class="icon"></i>
+            <div class="content">
+              <div class="title">Numerical Analysis Course</div>
+              <div class="how text">
+                <div class="sub-title">
+                  - To implement numerical method using python as programming
+                  language:
+                  <p>Learning rounding error/truncation error</p>
+                  <p>Root Search/Interpolation/Matrix equation</p>
+                  <p>Numerical differentiation and integration</p>
+                  <p>Finite difference methods for IV/BV ODEs /PDEs</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="how-container left">
+            <div class="date">2019/Spring</div>
+            <i class="icon"></i>
+            <div class="content">
+              <div class="title">Machine Learning</div>
+              <div class="sub-title">
+                - Learning Basic concept:
+                <p>Classification/Regression/Clustering</p>
+                <p>Training/Validation/Testing</p>
+                <p>Data processing</p>
+                <p>Distribution model</p>
+              </div>
+              <div class="sub-title">
+                - Using python packages as tool:
+                <p>Numpy/Pandas</p>
+                <p>Scikit-learn/Tensorflow/Keara/Pytorch</p>
+              </div>
+            </div>
+          </div>
+          <div class="how-container right">
+            <div class="date">2019/Fall</div>
+            <i class="icon"></i>
+            <div class="content">
+              <div class="title">Introduction to Turbulence Course</div>
+              <div class="sub-title">
+                - Learning Modeling a physical phenomenon
+                <p>
+                  Learning the difference between Choas and Turbulence, and
+                  Analyzing a system is choas or not for stability.
+                </p>
+                <p>Using statistics to model a system.</p>
+                <p>
+                  Learnig how to converte continuous variables into discrete
+                  variables.
+                </p>
+                <p>
+                  Using the algorithm of simulation to build a sipmle example
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="how-container left">
+            <div class="date">2020/Fall</div>
+            <i class="icon"></i>
+            <div class="content">
+              <div class="title">Learning Basic NLP</div>
+              <div class="sub-title">
+                - Type of NLP task
+                <p>Voice to Text / Text to Voice</p>
+                <p>Voice to Voice / Text to Text</p>
+                <p>Voice to class / Text to class</p>
+              </div>
+              <div class="sub-title">
+                - NLP models
+                <p>HMM/TasNet</p>
+                <p>Tokenizer/Pre-tran model(BERT/GPT3)</p>
+              </div>
+            </div>
+          </div>
+          <div class="how-container right">
+            <div class="date">2021/Summer</div>
+            <i class="icon"></i>
+            <div class="content">
+              <div class="title">Side Project</div>
+              <div class="sub-title">
+                - The goal of this project:
+                <p>
+                  Building a Backend which can scrap Janpanese news from
+                  yahoo.jp, then feeding the data into a trained machine to
+                  generate Q&A pairs.
+                </p>
+                <p>
+                  Building a Frontend which will take the data from api
+                  server,then show the practice form for users.
+                </p>
+                <p>
+                  The model will trained by JLPT data which will use
+                  げんごちしき and ぶんぼう part.
+                </p>
+              </div>
+              <div class="sub-title">
+                - Application Architecture
+                <div class="sub-title">
+                  Frontend:
+                  <p>React/Redux/html/css/js</p>
+                </div>
+                <div class="sub-title">
+                  Backend:
+                  <p>Flask(api server)/BERT model/</p>
+                  <p>docker(deploye)/web crawler/Nginx</p>
+                </div>
+                <div class="sub-title">
+                  Data Processing:
+                  <p>
+                    The data is pdf file so need use OCC model extraction
+                    first,then pair Q&A sets.
+                  </p>
+                  <p>Q data:{</p>
+                  <p>text:"string"</p>
+                  <p>mask_position:"start" and "end"</p>
+                  <p>level:"N1~N3"</p>
+                  <p>type: "moji"/"goi"/"bunbou"</p>
+                  <p>}</p>
+                  <p>A data:{</p>
+                  <p>choose:"1~4"</p>
+                  <p>}</p>
+                </div>
+              </div>
+              <div class="sub-title">
+                - Progress
+                <p>
+                  Frontend: Learning React for bulding a UI and Nodejs for
+                  Frontend server.
+                </p>
+                <p>
+                  Backend: Set up python script for scraping yahoo news collect
+                  data and Flask framwork to build a api server.
+                </p>
+              </div>
+              <div class="sub-title">
+                - Problems
+                <p>
+                  The data is not enough for training model need reconstruct the
+                  project.
+                </p>
+              </div>
+              <div class="sub-title">
+                - Solutions
+                <p>1. Thinking another way to train model.</p>
+                <p>
+                  2. The project will change to use the data which has sort out
+                  from JLPT and random show on frontend.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+
+    <div class="page Schedule">
+      <div class="title">如果參與這個計畫，會怎麼安排學習時間？</div>
+      <p class="underline"></p>
+      <div class="container schedule">
+        <div class="Schedule-text">
+          <div class="short">
+            <!-- <h2>Daliy Schedule</h2> -->
+            <div class="short-content">
+              <div class="shigotohi">
+                <h2>Schedule Arrangement</h2>
+                <p>Step1. Organize tasks and draw up the main goal.</p>
+                <p>Step2. Breakdown the problem and classify the technique.</p>
+                <p>Step3. Refer to the rules and test definitions.</p>
+                <p>Step4. Module packaging, format setting.</p>
+              </div>
+              <div class="shigotohi-timeline">
+                <div class="dailytimelin">
+                  Weekdays
+                  <div class="shigotohi-container">
+                    <div class="wrapper">
+                      <ul class="sessions">
+                        <li>
+                          <div class="shigotohi-time">05:00 AM</div>
+                          <p>Daily schedule arrangement</p>
+                        </li>
+                        <li>
+                          <div class="shigotohi-time">06:00 ~ 07:00 AM</div>
+                          <p>Learning&Coding</p>
+                        </li>
+                        <li>
+                          <div class="shigotohi-time">08:00 AM ~ 18:00 PM</div>
+                          <p>Working</p>
+                        </li>
+                        <li>
+                          <div class="shigotohi-time">19:00 PM</div>
+                          <p>Learning&Coding</p>
+                        </li>
+                        <li>
+                          <div class="shigotohi-time">20:00 PM</div>
+                          <p>Learning&Coding</p>
+                        </li>
+                        <li>
+                          <div class="shigotohi-time">21:00 PM</div>
+                          <p>Daily report writing</p>
+                        </li>
+                        <li>
+                          <div class="shigotohi-time">22:00 PM</div>
+                          <p>Learning&Coding</p>
+                        </li>
+                        <li>
+                          <div class="shigotohi-time">23:00 PM</div>
+                          <p>sleep</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yasumihi-timeline">
+                Weekend
+                <div class="wrapper">
+                  <ul class="sessions">
+                    <li>
+                      <div class="shigotohi-time">08:00 AM</div>
+                      <p>Daily schedule arrangement</p>
+                    </li>
+                    <li>
+                      <div class="shigotohi-time">09:00 ~ 12:00 AM</div>
+                      <p>Learning&Coding</p>
+                    </li>
+                    <li>
+                      <div class="shigotohi-time">12:00</div>
+                      <p>Time Break</p>
+                    </li>
+                    <li>
+                      <div class="shigotohi-time">13:00 ~ 17:00 PM</div>
+                      <p>Learning&Coding</p>
+                    </li>
+                    <li>
+                      <div class="shigotohi-time">18:00 PM</div>
+                      <p>Time Break</p>
+                    </li>
+                    <li>
+                      <div class="shigotohi-time">20:00 PM</div>
+                      <p>Daily report writing</p>
+                    </li>
+                    <li>
+                      <div class="shigotohi-time">21:00 PM</div>
+                      <p>Learning&Coding</p>
+                    </li>
+                    <li>
+                      <div class="shigotohi-time">23:00 PM</div>
+                      <p>sleep</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div claa="longten">
+            <h2>long term schedule</h2>
+            <div class="short-content">
+              <div class="shigotohi">work-day</div>
+              <div class="shigotohi-timeline">work-day</div>
+              <div class="yasumihi">vacation</div>
+              <div class="yasumihi-timeline">work-day</div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="page Challenge">
+      <div class="title">
+        如果參與這個計畫，預期會碰到什麼困難？你打算怎麼解決它？
+      </div>
+      <p class="underline"></p>
+      <div class="container Challenge">
+        <div class="Challenge-text">
+          <div class="time-arrange">
+            <div class="title">Time management</div>
+            <p class="underline-Challenge"></p>
+            <p class="content-Challenge">
+              Plan the progress of learning and homework, divide the content of
+              homework into three stages according to the difficulty of
+              self-ability, and gradually complete the project.
+            </p>
+          </div>
+          <div class="prject-manage">
+            <div class="title">Project Management</div>
+            <p class="underline-Challenge"></p>
+            <p class="content-Challenge">
+              Learn project management (such as annotations, variable naming
+              specifications) and project resource path planning (such as static
+              files and component programs, etc.) to improve efficiency, program
+              readability, and debugging capabilities, so as to be in line with
+              the enterprise in the future.
+            </p>
+          </div>
+          <div class="passion">
+            <div class="title">To Keep Enthusiasm</div>
+            <p class="underline-Challenge"></p>
+            <p class="content-Challenge">
+              Under pressure, It can increase to go forward, but it’s relatively
+              easy to fatigue and lose enthusiasm. My personal enthusiasm for
+              the program mainly comes from the sense of accomplishment that
+              arises when the application runs successfully and when I improve
+              my ability. In order to generate positive feedback, it is
+              necessary to split the problems and solve them one by one.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page Want-to">
+      <div class="title">是否有想要加入的軟體公司？為什麼想加入該公司？</div>
+      <p class="underline"></p>
+      <div class="container Want-to">
+        <div class="Want-to text">
+          <div class="comp1">
+            <a href="https://www.aetina.com/" target="_blank">Aetina</a>
+            <p class="underline"></p>
+            <p>
+              Aetina is a company that integrates software and hardware. It
+              combines the software (AI application) developed with the hardware
+              of nVIDIA. It presents entire ecological chain from product
+              development to listing. If I have the opportunity to join this
+              company, I can have a deep understanding about the demand of the
+              external market and cultivate Complete vision.
+            </p>
+          </div>
+          <div class="comp2">
+            <a href="http://www.deltaww.com/" target="_blank"
+              >Delta Electronics
+            </a>
+            <p class="underline"></p>
+            <p>
+              Delta is currently engaged in research and development artificial
+              intelligence related applications. Corresponding to its research
+              contains full stack development vacancies. In addition, Delta
+              produces ODM, these technologies can also be combined into actual
+              products.
+            </p>
+          </div>
+          <div class="comp3">
+            <a href="https://www.wistronits.com/tw/" target="_blank">Wistron</a>
+            <p class="underline"></p>
+            <p>
+              Wistron has multiple job openings that attract me. As mentioned
+              before I want to start from the back-end, then to integrate and
+              independently develop products practical using. In Wistron has
+              such as back-end engineer and natural language processing
+              position.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page Say">
+      <div class="title">想要對我們說的事情？</div>
+      <p class="underline"></p>
+      <div class="container say">
+        <div class="say-text">
+          <div class="title">
+            Why I am here from this application
+            <div>
+              <p class="why-underline underline-say"></p>
+              <div class="Say-content">
+                <p>
+                  There are many resonances when I watch the teaching and
+                  enrollment videos. Acquire new way to solve problem by
+                  self-learning are very fulfilling, but it spent lots of time
+                  even can’t straightforwardly clarify the problem. Otherwise,
+                  I’m not sure how the industry works, how the project is
+                  arranged, how to structure layout, how to apply variables,
+                  cause the subsequent debugging will be inefficient or the
+                  program readability will be reduced.
+                </p>
+                <p>
+                  Therefore, I look forward to guide the direction through
+                  professional skills and reminders through the training camp
+                  under the system architecture, so as to avoid getting into
+                  unnecessary loops, gradually understand the industry’s
+                  operating mode, change the ability of logical thinking, and
+                  strive to become a software engineer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
