@@ -501,7 +501,7 @@
 
 /* HOW------------------------------------------------------------------------------------------*/
 
-@media screen and (min-width: 1320px) {
+@media screen and (min-width: 1200px) {
   *,
   *::before,
   *::after {
@@ -669,7 +669,7 @@
   }
 }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1200px) {
   .how-container {
     padding: 15px 30px;
     position: relative;
@@ -967,7 +967,7 @@ li:before {
   }
 } */
 
-@media screen and (min-width: 1320px) {
+@media screen and (min-width: 1200px) {
   .menu_btn {
     display: none;
   }
@@ -1070,7 +1070,7 @@ li:before {
   text-align: justify;
 }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1200px) {
 
   .menu_btn {
     width: 35px;
